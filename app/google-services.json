@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "357879916008",
+    "firebase_url": "https://polycanteen-default-rtdb.firebaseio.com",
+    "project_id": "polycanteen",
+    "storage_bucket": "polycanteen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357879916008:android:0dde7ba7b5196dcafbb05d",
+        "android_client_info": {
+          "package_name": "com.example.canteenpoly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357879916008-r6vt5vjtp8fhl2tlljkv47ivk19pqiat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canteenpoly",
+            "certificate_hash": "7ceada621e48acfde3d2942d190da7bb933b6bb9"
+          }
+        },
+        {
+          "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgArXboXPi0jmt2Y9Aadi1b6XWzOr6ZPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357879916008:android:3f89fa9dae1e66edfbb05d",
+        "android_client_info": {
+          "package_name": "com.example.polycustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgArXboXPi0jmt2Y9Aadi1b6XWzOr6ZPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

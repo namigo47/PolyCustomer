@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "357879916008",
+    "firebase_url": "https://polycanteen-default-rtdb.firebaseio.com",
+    "project_id": "polycanteen",
+    "storage_bucket": "polycanteen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357879916008:android:0dde7ba7b5196dcafbb05d",
+        "android_client_info": {
+          "package_name": "com.example.canteenpoly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357879916008-r6vt5vjtp8fhl2tlljkv47ivk19pqiat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canteenpoly",
+            "certificate_hash": "3f9cc10653cf341e08cce09396d11f645ecac927"
+          }
+        },
+        {
+          "client_id": "357879916008-sm8nr4ci3r9fbllp4ddbng7of6husvsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canteenpoly",
+            "certificate_hash": "7ceada621e48acfde3d2942d190da7bb933b6bb9"
+          }
+        },
+        {
+          "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgArXboXPi0jmt2Y9Aadi1b6XWzOr6ZPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357879916008:android:3f89fa9dae1e66edfbb05d",
+        "android_client_info": {
+          "package_name": "com.example.polycustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357879916008-0kecv0drf50tqovemrjrtk0k08c6u647.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polycustomer",
+            "certificate_hash": "3816d0a3e809c454fd8e1cb2391f07a0c68b39ad"
+          }
+        },
+        {
+          "client_id": "357879916008-7vn8bu9p2qn0edolog0e3uqvuhlo1ub7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polycustomer",
+            "certificate_hash": "e912895a6914f84124c4b5ad003f3da0dc9126df"
+          }
+        },
+        {
+          "client_id": "357879916008-ih5rgppmn5a4n9t1adidk3d221j1dkis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polycustomer",
+            "certificate_hash": "3f9cc10653cf341e08cce09396d11f645ecac927"
+          }
+        },
+        {
+          "client_id": "357879916008-ne87kbs2fvhtbq5sp1jpg8fvgq33evp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polycustomer",
+            "certificate_hash": "9f1a02de9df9454756e1a11a93d642a0ab984113"
+          }
+        },
+        {
+          "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgArXboXPi0jmt2Y9Aadi1b6XWzOr6ZPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357879916008-k01rnq7epgj7scrar2cov2bqh5pdo02k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

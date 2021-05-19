@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MessageActivity"
+    android:orientation="vertical"
+    android:background="#e6e6e6"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@color/colorPoly"
+            style="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            app:popupTheme="@style/MenuStyle"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_user"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/username_user"
+                android:text="Hmmm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_msg"
+        android:layout_below="@+id/bar_layout"
+        android:layout_above="@+id/btnDatHang"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:backgroundTint="#FFFFFF"
+        android:padding="4dp"
+        android:drawableStart="@drawable/icon_store"
+        android:id="@+id/btnDatHang"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@+id/bottom"
+        android:background="@drawable/button_pay"
+        android:text="Đặt hàng"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        tools:ignore="RtlCompat" />
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:hint="Nhập vào đây..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_text_send"
+            android:layout_toLeftOf="@+id/btn_send_msg"
+            />
+        <ImageButton
+            android:id="@+id/btn_send_msg"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/iconsend"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
